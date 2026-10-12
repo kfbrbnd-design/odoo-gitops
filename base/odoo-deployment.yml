@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: odoo-app
-        image: docker.io/bitnami/odoo:16
+        image: docker.io/bitnamilegacy/odoo:16
         ports:
         - containerPort: 8069
         env: 
