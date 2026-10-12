@@ -4,7 +4,7 @@ metadata:
   name: odoo-pvc
   namespace: odoo
 spec:
-  storageClassName: standard-rwo # standard-rwo is default - in argo you need to pass it 
+  storageClassName: standard # standard-rwo is default - in argo you need to pass it 
   accessModes:
   - ReadWriteOnce
   resources:
