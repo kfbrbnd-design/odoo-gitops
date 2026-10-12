@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: argodoo.lab.com
+    - host: argodoo.lab.local
       http:
         paths:
           - path: /
